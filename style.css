@@ -1,0 +1,52 @@
+body {
+background-color:#E8E8E8;
+}
+img {
+text-align:center;
+}
+p{
+	text-align:left;
+}
+ul {
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 23em;
+    overflow: hidden;
+    background-color: #CD0606;
+   
+    
+}
+
+li {
+    float: left;
+ 
+        
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ABABAB;
+}
+div#content{
+	background-color:red;
+}
+p#main{
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+}
+#pic img{
+    height: 15em;
+    width= 15em;
+
+}
+#pic{
+    text-align: center;
+}
