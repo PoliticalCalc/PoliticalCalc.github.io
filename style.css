@@ -7,7 +7,7 @@ text-align:center;
 p{
 	text-align:left;
 }
-
+/*nav bar section*/
 span{
 	float: left;
 	color: white;
@@ -54,7 +54,7 @@ ul a:hover{
     height: 55px;
     background: white;
 }
-
+/*end of nav bar*/
 
 div#content{
 	background-color:red;
