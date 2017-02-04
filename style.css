@@ -95,3 +95,27 @@ p#main{
      padding-top: 5%;
     padding-right: 3%;
 }
+
+.button {
+	/* Defines a button class with some ugly ass gray colour because I'm lazy*/
+    border:4px solid;
+    width: 40px;
+    padding-left:5px;
+    padding-right: 5px;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+}
+#container {
+	/*Makes a shitty ass container for testing purposes, because I'm lazy*/
+    width:50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: #ffffff;
+    border:4px solid #000000;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
