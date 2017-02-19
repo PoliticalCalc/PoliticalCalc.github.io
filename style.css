@@ -143,6 +143,11 @@ p#main{
     width: 200px;
      
 }
+.teamMember p{
+    text-align: center;
+    color:#6194BC;
+   
+}
 
 .teamMember{
     float: left;
