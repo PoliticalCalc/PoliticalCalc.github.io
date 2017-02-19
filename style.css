@@ -145,8 +145,8 @@ p#main{
 }
 .teamMember p{
     text-align: center;
-    color:#6194BC;
-   
+    color: #6194BC;
+    font-size: 19px;
 }
 
 .teamMember{
