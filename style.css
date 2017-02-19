@@ -1,5 +1,29 @@
-body {
-background-color:#E8E8E8;
+#part1{
+
+    width: 100%;
+    height: 400px;
+    font-family: Tahoma ,Helvetica,Arial,sans-serif; 
+     margin: 0px;
+    padding:0px;
+    
+}
+
+#part2{
+    
+    background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    height: 500px;
+     margin: 0px;
+    padding:0px;
+}
+
+#part3{
+  background-color:#ECECEC;
+    width: 100%;
+    font-family: Tahoma ,Helvetica,Arial,sans-serif; 
+    margin: 0px;
+    padding:0px;
 }
 img {
 text-align:center;
@@ -18,7 +42,7 @@ span{
 
 span a{
 	text-decoration: none; 
-	color: #FF3B3F;
+	color: #E4001B;
 	font-size: 27px; 
 }
 
@@ -45,7 +69,7 @@ li {
 }
 
 ul a:hover{
-    color: #ff3b3f
+    color: #E4001B;
 }
 
 .nav{
@@ -64,37 +88,69 @@ p#main{
 	font-family: 'Roboto', sans-serif;
 }
 #pic img{
-    height: 15em;
-    width= 15em;
+    height: 11em;
+    width= 11em;
 
 }
 #pic{
     text-align: center;
 }
+#part1 p{
+    text-align: center;
+   color: #6194BC;
+}
+
+/* Intro Paragraph Formating*/
+.intro{
+    margin-left: 30%;
+    text-align: center;
+    width: 600px;
+  
+}
+
+.intro h1{
+    color: #E4001B;
+    font-size: 50px;
+    padding-top: 5%;
+}
+
+.intro p{
+    text-align: center;
+    font-size: 18px;
+    color: #606060;
+    
+}
 
 /* team members  Section*/
 .overarchTeam {
-    text-align: center;
-   background-color: azure;
-    width: 1000px;
-    height: 900px;
+    margin-left: 5%;
+    width: 1300px;
+    height: 500px;
     
+}
+.overarchTeam h1{
+    font-size: 50px;
+    text-align: center; 
+	font-family: Tahoma ,Helvetica,Arial,sans-serif; 
+    	color: #606060;
+    padding-top: 5%;
 }
 
 .teamMember img{
  
     border-radius: 100%;
-    height: 250px;
-    width: 250px;
-    
-   
+    height: 200px;
+    width: 200px;
+     
 }
 
 .teamMember{
     float: left;
-     padding-top: 5%;
-    padding-right: 3%;
+    margin: 2%;
 }
+
+
+/*-----------**/
 
 .button {
 	/* Defines a button class with some ugly ass gray colour because I'm lazy*/
