@@ -158,6 +158,7 @@ p#main{
 }
 
 
+
 /*-----------**/
 
 .button {
@@ -170,7 +171,9 @@ p#main{
     background-color: #DCDCDC;
     color: black;
     margin: 0 2px 0 2px;
+
 }
+
 #container {
 	/*Makes a shitty ass container for testing purposes, because I'm lazy*/
     width:50%;
@@ -182,4 +185,6 @@ p#main{
     color: #FFFFFF;
     font-weight: bold;
     box-shadow: 5px 5px 5px #888;
+	height:500px;
+
 }
