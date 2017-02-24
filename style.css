@@ -3,7 +3,7 @@
     width: 100%;
     height: 400px;
     font-family: Tahoma ,Helvetica,Arial,sans-serif; 
-     margin: 0px;
+    margin: 0px;
     padding:0px;
     
 }
@@ -14,8 +14,8 @@
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
     height: 500px;
-     margin: 0px;
-    padding:0px;
+    margin: 0px;
+    padding:0x;
 }
 
 #part3{
@@ -103,10 +103,10 @@ p#main{
 
 /* Intro Paragraph Formating*/
 .intro{
-    
 	margin:auto;
     text-align: center;
     width: 600px;
+	
   
 }
 
@@ -135,7 +135,7 @@ p#main{
     text-align: center; 
 	font-family: Tahoma ,Helvetica,Arial,sans-serif; 
     color: #606060;
-    padding-top: 5%;
+    padding-top: 0;
 	
 }
 
