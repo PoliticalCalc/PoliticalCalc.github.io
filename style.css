@@ -19,11 +19,12 @@
 }
 
 #part3{
-  background-color:#ECECEC;
+	
+    background-color:#ECECEC;
     width: 100%;
     font-family: Tahoma ,Helvetica,Arial,sans-serif; 
-    margin: 0px;
-    padding:0px;
+    padding:10px;
+	
 }
 img {
 text-align:center;
@@ -102,7 +103,8 @@ p#main{
 
 /* Intro Paragraph Formating*/
 .intro{
-    margin-left: 29%;
+    
+	margin:auto;
     text-align: center;
     width: 600px;
   
@@ -123,7 +125,7 @@ p#main{
 
 /* team members  Section*/
 .overarchTeam {
-    margin-left: 5%;
+    margin:auto;
     width: 1300px;
     height: 500px;
     
@@ -132,8 +134,9 @@ p#main{
     font-size: 50px;
     text-align: center; 
 	font-family: Tahoma ,Helvetica,Arial,sans-serif; 
-    	color: #606060;
+    color: #606060;
     padding-top: 5%;
+	
 }
 
 .teamMember img{
