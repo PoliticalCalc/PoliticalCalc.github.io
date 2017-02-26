@@ -118,17 +118,156 @@ border-radius: 19px;
 		<div id='tits'>
 		<h1>The Political Spectrum Quiz</h1>
 	    </div>
-   		<br/>
-		<!-- Creates a bullshit container -->
-		<div id='quiz'><!--Add some good ass bullshit here--></div>
-		<div class="button" id='next'><a href='#'>Next</a></div>
-		<!--<div class="button" id='start'> <a href='#'>Start Over</a></div>-->
-		<!--minimizing the potential for stupidity a the moment-->
-		</div>
-		<script type="text/javascript" src='questions.json'></script>
-		<!--Questions are fed into the element from an appropriat JSON file-->
-		<script type='text/javascript' src='jsquiz.js'></script>
-		<!-- Runs the actual algorithm part, plain off onto tyler to code-->
+		<p align="center">
+
+<form method="POST" name="myquiz">
+
+<div class="qheader">
+<h3>What Beliefs Do You Hold on Abortion?</h3></div>
+<div class="qselections">
+<input type="radio" value="a" name="question1">It should be illegal in ALL cases.<br>
+<input type="radio" value="b" name="question1">It should be illegal in most cases (e.g. rape or incest or mother’s life)<br>
+<input type="radio" value="c" name="question1">It should be legal up to a certain age (ex. Until the 2nd Trimester)<br>
+<input type="radio" value="d" name="question1">It should be legal until birth.<br>
+<input type="radio" value="e" name="question1">It should be legal until a certain age after birth.<br>
+<input type="radio" value="f" name="question1">I’m against it morally, but the government does not have the right to regulate abortion<br>
+<input type="text" name="other" size="24" value="" placeholder="Other Stance">
+</div>
+<br>
+<div class="qheader">
+<h3>Should the Government Provide Funding to Companies That Provide Health Services For Women</h3></div>
+<div class="qselections">
+<input type="radio" value="a" name="question2">The government should not divert funds for any companies that provide services for women.<br>
+<input type="radio" value="b" name="question2">The government should only divert funds if the company does not perform abortions. <br>
+<input type="radio" value="c" name="question2">The government can divert funds to companies that perform abortions only in cases of rape or incest or mother’s life.<br>
+<input type="radio" value="d" name="question2">The government should provide funding in all cases.<br>
+<input type="text" name="other" size="24" value="" placeholder="Other Stance">
+</div>
+
+<br>
+
+<div class="qheader">
+<h3>Should the Government Bail out Big Industries?</h3></div><br/>
+<div class="qselections">
+<input type="radio" value="a" name="question3">The government should never bail out industries. <br>
+<input type="radio" value="b" name="question3">The government should only bail out industries that threaten the collapse of the economy<br>
+<input type="radio" value="c" name="question3">The government should be willing to bailout the dangerous industries<br>
+<input type="radio" value="d" name="question3">The government should be willing to bailout and potentially shutdown industries<br>
+<input type="radio" value="e" name="question2">The government should provide whatever assistance it can to an industry<br>
+<input type="radio" value="f" name="question2">The government should take control of the industry<br>
+<input type="text" name="other" size="24" value="" placeholder="Other Stance">
+</div>
+
+<br>
+
+<div class="qheader">
+<h3>What is your stance on the minimum wage?</h3></div>
+<div class="qselections">
+<input type="radio" value="a" name="question4">Minimum wage should not exist. <br>
+<input type="radio" value="b" name="question4">States decide the minimum wage respectively.<br>
+<input type="radio" value="c" name="question4">The federal government should mandate a minimum wage, but states can raise it at their own discretion.<br>
+<input type="radio" value="d" name="question4">The federal government should set a national minimum wage.<br>
+<input type="text" name="other" size="24" value="" placeholder="Other Stance">
+</div>
+
+<br>
+
+<div class="qheader">
+<h3>In reguards to Defense spending, the United States should:</h3> </div>
+<div class="qselections">
+<input type="radio" value="a" name="question5">Increase military spending.<br>
+<input type="radio" value="b" name="question5">Keep military spending the same.<br>
+<input type="radio" value="c" name="question5">Decrease military spending.<br>
+<input type="text" name="other" size="24" value="" placeholder="Other Stance">
+</div>
+
+<br>
+
+<div class="qheader">
+<h3>What should the federal government’s role in education be?</h3></div>
+<div class="qselections">
+<input type="radio" value="a" name="question6">The government should not fund education. <br>
+<input type="radio" value="b" name="question6">The government should only provide education until high school<br>
+<input type="radio" value="c" name="question6">The government should provide education until high school but encourage non public institutions.<br>
+<input type="radio" value="d" name="question6">The government should provide funding up until high school and subsidize public colleges.<br>
+<input type="radio" value="e" name="question6">The government should provide full tuition for all public colleges<br>
+<input type="radio" value="f" name="question6">The government should make all colleges free<br>
+<input type="text" name="other" size="24" value="" placeholder="Other Stance">
+</div>
+
+<br>
+
+<div class="qheader">
+<h3>Federal Education Standards:</h3></div>
+<div class="qselections">
+<input type="radio" value="a" name="question7">All schools should institute their own standards.<br>
+<input type="radio" value="b" name="question7">All schools should follow state's standards<br>
+<input type="radio" value="c" name="question7">Common Core should be implemented but allow for custom implementation<br>
+<input type="radio" value="d" name="question7">Common Core should be implemented across the country<br>
+<input type="text" name="other" size="24" value="" placeholder="Other Stance">
+</div>
+
+<br>
+
+<div class="qheader">
+<h3> Climate change</h3></div>
+<div class="qselections">
+<input type="radio" value="a" name="question8">Climate Change does not exist<br>
+<input type="radio" value="b" name="question8">Climate Change exists but does not present a danger<br>
+<input type="radio" value="c" name="question8">Climate Change is a very low danger to society<br>
+<input type="radio" value="d" name="question8">Climate Change is somewhat of a danger to society<br>
+<input type="radio" value="e" name="question8">The government should intervene to protect the environment<br>
+<input type="radio" value="f" name="question8">The government should save the environment at all costs<br>
+<input type="text" name="other" size="24" value="" placeholder="Other Stance">
+</div>
+
+<br>
+
+<div class="qheader">
+<h3>Gay Marriage</h3></div>
+<div class="qselections">
+<input type="radio" value="a" name="question9">Gay Marriage should be illegal <br>
+<input type="radio" value="b" name="question9">Gay Marriage should be left to the states to decide<br>
+<input type="radio" value="c" name="question9">Gay Marriage should not be allowed but civil unions should<br>
+<input type="radio" value="d" name="question9">Gay Marriage should be allowed<br>
+<input type="text" name="other" size="24" value="" placeholder="Other Stance">
+</div>
+
+<br>
+
+<div class="qheader">
+<h3>Homosexuals in the military  </h3></div>
+<div class="qselections">
+<input type="radio" value="a" name="question10">Homosexuals should not be allowed<br>
+<input type="radio" value="b" name="question10">Homosexuals should only be allowed to serve but not fight<br>
+<input type="radio" value="c" name="question10">Homosexuals should follow Don’t ask Don’t tell<br>
+<input type="radio" value="d" name="question10">It doesn’t make a difference<br>
+<input type="radio" value="e" name="question10">Homosexuals should be allowed to serve but should not receive high ranking positions<br>
+<input type="radio" value="f" name="question10">Homosexuals should be allowed<br>
+<input type="text" name="other" size="24" value="" placeholder="Other Stance">
+</div>
+<div class="qheader">
+<h3>Transgender Bathroom Rights</h3></div>
+<div class="qselections">
+<input type="radio" value="a" name="question10">Birth certificate status should be used<br>
+<input type="radio" value="b" name="question10">There are only two genders<br>
+<input type="radio" value="c" name="question10">Make unisex bathrooms<br>
+<input type="radio" value="d" name="question10">People should be allowed to use whatever bathroom they wish<br>
+<input type="text" name="other" size="24" value="" placeholder="Other Stance">
+</div>
+
+
+</form>
+
+<form>
+<div align="center">
+<input type="button" value="Where Do I fall?" name="B1" onClick="gradeit()"> <input type="button" value="Reset" name="B2" onClick="document.myquiz.reset()"></div>
+</form>
+<!--This bullshit can go for now
+<script type="text/javascript" src='questions.json'></script>
+Questions are fed into the element from an appropriat JSON file
+<script type='text/javascript' src='jsquiz.js'></script>
+Runs the actual algorithm part, plain off onto tyler to code-->
 		
 		
 </body>
