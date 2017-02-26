@@ -156,7 +156,10 @@ p#main{
     float: left;
     margin: 2%;
 }
-
+#tits{
+	color:black;
+	text-align:center;
+}
 
 
 /*-----------**/
