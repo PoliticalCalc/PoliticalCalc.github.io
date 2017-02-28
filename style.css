@@ -160,7 +160,11 @@ p#main{
 	color:black;
 	text-align:center;
 }
-
+#popup,#popup1,#popup2,#popup3,#popup4 {
+ font-family: Tahoma ,Helvetica,Arial,sans-serif; 
+    text-align: center;
+ color: #606060;
+}
 
 /*-----------**/
 
