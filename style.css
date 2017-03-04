@@ -186,15 +186,20 @@ p#main{
     width:50%;
     margin:auto;
     padding: 0 25px 40px 10px;
-    background-color: #ffffff;
-    border:4px solid #000000;
+    background-color: #D0EAFF;
     border-radius:5px;
     color: black;
     font-weight: bold;
-    box-shadow: 5px 5px 5px #888;
 	height:2930px;
 
 }
+#container h1{
+color:#E4001B;	
+}
+#container a{
+	color:#E4001B;
+}
+
 #iss1 {
     background-color: #D0EAFF;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
@@ -214,10 +219,6 @@ text-align:center;
 #iss1 h3{
 color:#E4001B;
 text-align:center;
-}
-#iss1 ul{
-color:#606060;
-text-align:left;
 }
 #issh{
 text-align:center;	
@@ -241,7 +242,7 @@ font-size: 15px;
     background-color: #ECECEC;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
-    height: 700px;
+    height: 450px;
     margin: 0px;
     padding:0;
 }
@@ -259,4 +260,24 @@ text-align:center;
 }
 #iss22 p{
 text-align:left;
+}
+#iss3 {
+    background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    padding:0x;
+}
+#iss3 p{
+color:#606060;
+text-align:center;
+}
+#iss3 h1{
+color:#E4001B;
+text-align:center;
+}
+#iss3 h3{
+color:#E4001B;
+text-align:center;
 }
