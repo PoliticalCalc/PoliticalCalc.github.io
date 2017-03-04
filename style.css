@@ -238,6 +238,7 @@ border-radius: 9px;
 box-sizing: border-box;
 font-size: 15px;
 }
+
 #iss2 {
     background-color: #ECECEC;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
@@ -261,6 +262,7 @@ text-align:center;
 #iss22 p{
 text-align:left;
 }
+
 #iss3 {
     background-color: #D0EAFF;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
@@ -280,4 +282,175 @@ text-align:center;
 #iss3 h3{
 color:#E4001B;
 text-align:center;
+}
+#iss32 p{
+text-align:left;
+}
+
+#iss4 {
+    background-color: #ECECEC;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    height: 450px;
+    margin: 0px;
+    padding:0;
+}
+#iss4 h1{
+color:#606060;
+text-align:center;
+}
+#iss4 h3{
+color:#606060;
+text-align:center;
+}
+#iss4 p{
+color:#606060;
+text-align:center;
+}
+#iss42 p{
+text-align:left;
+}
+
+#iss5 {
+    background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    padding:0x;
+}
+#iss5 p{
+color:#606060;
+text-align:center;
+}
+#iss5 h1{
+color:#E4001B;
+text-align:center;
+}
+#iss5 h3{
+color:#E4001B;
+text-align:center;
+}
+#iss52 p{
+text-align:left;
+}
+
+#iss6 {
+    background-color: #ECECEC;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    height: 450px;
+    margin: 0px;
+    padding:0;
+}
+#iss6 h1{
+color:#606060;
+text-align:center;
+}
+#iss6 h3{
+color:#606060;
+text-align:center;
+}
+#iss6 p{
+color:#606060;
+text-align:center;
+}
+#iss62 p{
+text-align:left;
+}
+
+#iss7 {
+    background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    padding:0x;
+}
+#iss7 p{
+color:#606060;
+text-align:center;
+}
+#iss7 h1{
+color:#E4001B;
+text-align:center;
+}
+#iss7 h3{
+color:#E4001B;
+text-align:center;
+}
+#iss72 p{
+text-align:left;
+}
+
+#iss8 {
+    background-color: #ECECEC;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    height: 450px;
+    margin: 0px;
+    padding:0;
+}
+#iss8 h1{
+color:#606060;
+text-align:center;
+}
+#iss8 h3{
+color:#606060;
+text-align:center;
+}
+#iss8 p{
+color:#606060;
+text-align:center;
+}
+#iss82 p{
+text-align:left;
+}
+
+#iss9 {
+    background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    padding:0x;
+}
+#iss9 p{
+color:#606060;
+text-align:center;
+}
+#iss9 h1{
+color:#E4001B;
+text-align:center;
+}
+#iss9 h3{
+color:#E4001B;
+text-align:center;
+}
+#iss92 p{
+text-align:left;
+}
+
+#iss10 {
+    background-color: #ECECEC;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    height: 450px;
+    margin: 0px;
+    padding:0;
+}
+#iss10 h1{
+color:#606060;
+text-align:center;
+}
+#iss10 h3{
+color:#606060;
+text-align:center;
+}
+#iss10 p{
+color:#606060;
+text-align:center;
+}
+#iss102 p{
+text-align:left;
 }
