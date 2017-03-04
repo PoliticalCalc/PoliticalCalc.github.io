@@ -218,7 +218,7 @@ font-size: 15px;
 }
 /*This takes care of the formatting for the form buttons*/
 input[name="B1"] {
-background-color: #a9a9a9;
+background-color: #606060;
 color: #ff3b3f;
 font-size: 21px;
 padding:20px 20px;
@@ -229,7 +229,7 @@ cursor: pointer;
 	}
 
 input[name="B2"] {
-background-color: #a9a9a9;
+background-color: #606060;
 color: #ff3b3f;
 font-size: 21px;
 padding:20px 20px;
