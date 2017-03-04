@@ -24,7 +24,7 @@
 <!--Define Keywords that are scanned by the search engines in the indexing process of the website-->
 <meta name="description" content="Political Test to find out where you fall on the spectrum">
 <!--Creates website description for webcrawlers -->
-<meta name="author" content="Kyle Robert Mlynarski (See Registration Information), Yashwee Kothari, Daniel Goldin, Aashka Patel,Tyler McDonald">
+<meta name="author" content="Kyle Robert Mlynarski (See Registration Information), Yashwee Kothari, Daniel Goldin, Aashka Patel, Tyler McDonald">
 <!-- Creates a field for the Definition of authors of the website -->
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <!--Import for Google Standard readible font Robotto -->
@@ -58,7 +58,7 @@
 	    </div>
 		<p align="center">
 
-<form method="POST" name="myquiz">
+<form action="runner.php" method="post" name="myquiz" enctype="multipart/form-data">
 
 <div class="qheader">
 <h3>1. What Beliefs Do You Hold on Abortion?</h3></div>
@@ -201,11 +201,8 @@
 <div align="center">
 <input type="button" value="Where Do I fall?" name="B1" onClick="gradeit()"> <input type="button" value="Reset" name="B2" onClick="document.myquiz.reset()"></div>
 </form>
-<!--This bullshit can go for now
-<script type="text/javascript" src='questions.json'></script>
-Questions are fed into the element from an appropriat JSON file
 <script type='text/javascript' src='jsquiz.js'></script>
-Runs the actual algorithm part, plain off onto tyler to code-->
+<!--re-enables the Javascript sript that I had disabled the link to earlier-->
 		
 		
 </body>
