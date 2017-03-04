@@ -230,3 +230,13 @@ color: #6194BC;
 #iss12 p{
 	text-align:left;
 }
+input[type=text], textarea, select{
+width: 100%;
+padding: 13px 21px;
+margin: 9px 0;
+display: inline-block;
+border: 5px solid #ccc;
+border-radius: 9px;
+box-sizing: border-box;
+font-size: 15px;
+}
