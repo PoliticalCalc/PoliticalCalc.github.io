@@ -224,9 +224,6 @@ text-align:center;
 font-size:52px;
 color: #6194BC;
 }
-#iss12{
-
-}
 #iss12 p{
 	text-align:left;
 }
@@ -239,4 +236,27 @@ border: 5px solid #ccc;
 border-radius: 9px;
 box-sizing: border-box;
 font-size: 15px;
+}
+#iss2 {
+    background-color: #ECECEC;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    padding:0;
+}
+#iss2 h1{
+color:#606060;
+text-align:center;
+}
+#iss2 h3{
+color:#606060;
+text-align:center;
+}
+#iss2 p{
+color:#606060;
+text-align:center;
+}
+#iss22 p{
+text-align:left;
 }
