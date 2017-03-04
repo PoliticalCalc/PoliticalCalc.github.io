@@ -1,49 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" sizes="192x192" href="fullicon.png">
+<!--This tag supports a high resolution favicon to be displayed in Google inc's Chromium mobile browser (Arm/Mips/x86) for canary build 42+ as well as desktop builds of Google inc's Chromium web browser beta build 43+ with high dpi displays. Feature Only supported by android devices running a version of android equal to or geater than 5.0-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- Head Libs -->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="ie8.css">
+<![endif]-->
+<!--This is a catch for ie8 browser-->
+<!-- Head Libs -->
+<!--[if lt IE 8]> 
+<link rel="stylesheet" type="text/css" href="ie7.css">
+<![endif]-->
+<!--this is a catch for ie 7 or lesser browsers-->
+<meta name="theme-color" content="#BA55D3">
+<!-- Sets the color of the address bar in Google inc's Chromium mobile browser (Arm/Mips/x86) for canary build 39+ compatible only with the android mobile operating system -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#BA55D3">
+<!--This sets the color of the status bar on apple mobile devices, color can be entered in between quotations in form #hex; color; or color/#hex-translucent the latter allows content to be viewed behind the status bar as a user scrolls through the page-->
+<meta name="keywords" content="Political Spectrum, Political Calculator, Political Test, Politics">
+<!--Define Keywords that are scanned by the search engines in the indexing process of the website-->
+<meta name="description" content="Political Test to find out where you fall on the spectrum">
+<!--Creates website description for webcrawlers -->
+<meta name="author" content="Kyle Robert Mlynarski (See Registration Information), Yashwee Kothari, Daniel Goldin, Aashka Patel,Tyler McDonald">
+<!-- Creates a field for the Definition of authors of the website -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<!--Import for Google Standard readible font Robotto -->
+<meta charset="utf-8">
+<!--Sets Charset to 8 bit unicode (English)-->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+<!--Sets user scalibility to true-->
+<meta http-equiv="Content-Language" content="en">
+<!--Declares Content Lanuage to be English-->
+<meta name="revised" content="Kyle Mlynarski 2/26/2017" />
+<!--Sets date for last revision and author-->
 <title>The Political Spectrum- Quiz</title>
-<style>
-input[type=text], textarea, select{
-width: 100%;
-padding: 13px 21px;
-margin: 9px 0;
-display: inline-block;
-border: 5px solid #ccc;
-border-radius: 9px;
-box-sizing: border-box;
-font-size: 15px;
-}
-label{
-font-size: 21px;
-color: #ff3b3f;
-}
-input[type=submit] {
-width: 100%;
-background-color: #a9a9a9;
-color: #ff3b3f;
-font-size: 21px;
-padding:20px 20px;
-margin: 9px 0;
-border: none;
-border-radius: 9px;
-cursor: pointer;
-}
-input[type=submit]:hover {
-background-color: #efefef;
-}
-.form{
-width: 50%;
-margin-left: 23%;
-padding: 50px;
-background-color: #caebf2;
-border-radius: 19px;
-}
-    footer{
-        text-align: center;
-    }
-
-</style>
 </head>
 <body>
     <div class="nav">
@@ -58,62 +51,7 @@ border-radius: 19px;
 		
 		</div>
 <header>
-
 </header>
-<!--
-<br>
-<br>
-<br>
-<!--Table
-
-<br>
-<br>
-<br>
-
-<br>
-<br>
-<div class="form">
-<form action="bkSub.html">
-<label>First Name</label>
-<input type="text" id="namef" placeholder="Enter First Name">
-<label>Last Name</label>
-<input type="text" id="namel" placeholder="Enter Last Name">
-<label>Phone Number</label>
-<input type="text" id="number" placeholder="Enter Phone Number">
-<label>Email</label>
-<input type="text" id="namef" placeholder="Enter First Name">
-<label>Select Group</label>
-<select>
-<option value="ppd">Polenberg Photographic Design</option>
-<option value="pe">Polenberg Educational</option>
-<option value="kh">K&H Studios</option>
-</select>
-<label>Address</label>
-<input type="text" id="add" placeholder="Enter street address, city, state">
-<label>Zip Code</label>
-<input type="text" id="zip" placeholder="Enter zip code">
-<label>Age Group</label>
-<select>
-<option value="ppd">Youth (13-20)</option>
-<option value="pe">Adult (21-64)</option>
-<option value="kh">Senior Citizens (65+)</option>
-</select>
-<input type="submit" value="Submit">
-</form>
-</div>
--->
-<script>
-//var userinfo = "";
-//printing user info-->
-//$.get("http://ipinfo.io", function (response) {
-  //var add= response.ip;
-  //alert(add);
-  //alert("Location: " + response.city + ", " + response.region);
-  //alert(JSON.stringify(response, null, 4));
-  //userinfo = (JSON.stringify(response,null,4));
-
-//}, "jsonp");--></script>
-
     <div id='container'>
 		<div id='tits'>
 		<h1>The Political Spectrum Quiz</h1>
@@ -123,7 +61,7 @@ border-radius: 19px;
 <form method="POST" name="myquiz">
 
 <div class="qheader">
-<h3>What Beliefs Do You Hold on Abortion?</h3></div>
+<h3>1. What Beliefs Do You Hold on Abortion?</h3></div>
 <div class="qselections">
 <input type="radio" value="a" name="question1">It should be illegal in ALL cases.<br>
 <input type="radio" value="b" name="question1">It should be illegal in most cases (e.g. rape or incest or mother’s life)<br>
@@ -135,7 +73,7 @@ border-radius: 19px;
 </div>
 <br>
 <div class="qheader">
-<h3>Should the Government Provide Funding to Companies That Provide Health Services For Women</h3></div>
+<h3>2. Should the Government Provide Funding to Companies That Provide Health Services For Women</h3></div>
 <div class="qselections">
 <input type="radio" value="a" name="question2">The government should not divert funds for any companies that provide services for women.<br>
 <input type="radio" value="b" name="question2">The government should only divert funds if the company does not perform abortions. <br>
@@ -147,7 +85,7 @@ border-radius: 19px;
 <br>
 
 <div class="qheader">
-<h3>Should the Government Bail out Big Industries?</h3></div><br/>
+<h3>3. Should the Government Bail out Big Industries?</h3></div><br/>
 <div class="qselections">
 <input type="radio" value="a" name="question3">The government should never bail out industries. <br>
 <input type="radio" value="b" name="question3">The government should only bail out industries that threaten the collapse of the economy<br>
@@ -161,7 +99,7 @@ border-radius: 19px;
 <br>
 
 <div class="qheader">
-<h3>What is your stance on the minimum wage?</h3></div>
+<h3>4. What is your stance on the minimum wage?</h3></div>
 <div class="qselections">
 <input type="radio" value="a" name="question4">Minimum wage should not exist. <br>
 <input type="radio" value="b" name="question4">States decide the minimum wage respectively.<br>
@@ -173,7 +111,7 @@ border-radius: 19px;
 <br>
 
 <div class="qheader">
-<h3>In reguards to Defense spending, the United States should:</h3> </div>
+<h3>5. In reguards to Defense spending, the United States should:</h3> </div>
 <div class="qselections">
 <input type="radio" value="a" name="question5">Increase military spending.<br>
 <input type="radio" value="b" name="question5">Keep military spending the same.<br>
@@ -184,7 +122,7 @@ border-radius: 19px;
 <br>
 
 <div class="qheader">
-<h3>What should the federal government’s role in education be?</h3></div>
+<h3>6. What should the federal government’s role in education be?</h3></div>
 <div class="qselections">
 <input type="radio" value="a" name="question6">The government should not fund education. <br>
 <input type="radio" value="b" name="question6">The government should only provide education until high school<br>
@@ -198,7 +136,7 @@ border-radius: 19px;
 <br>
 
 <div class="qheader">
-<h3>Federal Education Standards:</h3></div>
+<h3>7. Federal Education Standards:</h3></div>
 <div class="qselections">
 <input type="radio" value="a" name="question7">All schools should institute their own standards.<br>
 <input type="radio" value="b" name="question7">All schools should follow state's standards<br>
@@ -210,7 +148,7 @@ border-radius: 19px;
 <br>
 
 <div class="qheader">
-<h3> Climate change</h3></div>
+<h3>8. Climate change</h3></div>
 <div class="qselections">
 <input type="radio" value="a" name="question8">Climate Change does not exist<br>
 <input type="radio" value="b" name="question8">Climate Change exists but does not present a danger<br>
@@ -224,7 +162,7 @@ border-radius: 19px;
 <br>
 
 <div class="qheader">
-<h3>Gay Marriage</h3></div>
+<h3>9. Gay Marriage</h3></div>
 <div class="qselections">
 <input type="radio" value="a" name="question9">Gay Marriage should be illegal <br>
 <input type="radio" value="b" name="question9">Gay Marriage should be left to the states to decide<br>
@@ -236,7 +174,7 @@ border-radius: 19px;
 <br>
 
 <div class="qheader">
-<h3>Homosexuals in the military  </h3></div>
+<h3>10. Homosexuals in the military  </h3></div>
 <div class="qselections">
 <input type="radio" value="a" name="question10">Homosexuals should not be allowed<br>
 <input type="radio" value="b" name="question10">Homosexuals should only be allowed to serve but not fight<br>
@@ -247,7 +185,7 @@ border-radius: 19px;
 <input type="text" name="other" size="24" value="" placeholder="Other Stance">
 </div>
 <div class="qheader">
-<h3>Transgender Bathroom Rights</h3></div>
+<h3>11. Transgender Bathroom Rights</h3></div>
 <div class="qselections">
 <input type="radio" value="a" name="question10">Birth certificate status should be used<br>
 <input type="radio" value="b" name="question10">There are only two genders<br>
