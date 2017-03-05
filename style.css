@@ -250,6 +250,7 @@ cursor: pointer;
     height: 700px;
     margin: 0px;
     padding:10px;
+	    overflow: auto;
 }
 #iss1 p{
 color:#606060;
@@ -271,6 +272,7 @@ color: #6194BC;
 #iss12 p{
 	text-align:left;
 }
+
 /*****************************************************************************/	
 /*Issue 2*/
 #iss2 {
@@ -280,6 +282,7 @@ color: #6194BC;
     height: 450px;
     margin: 0px;
     padding:10px;
+    overflow: auto;
 }
 #iss2 h1{
 color:#606060;
@@ -296,6 +299,7 @@ text-align:center;
 #iss22 p{
 text-align:left;
 }
+
 /*****************************************************************************/	
 /*Issue 3*/
 #iss3 {
@@ -305,6 +309,7 @@ text-align:left;
     height: 700px;
     margin: 0px;
     padding:10px;
+	overflow: auto;
 }
 #iss3 p{
 color:#606060;
@@ -321,6 +326,7 @@ text-align:center;
 #iss32 p{
 text-align:left;
 }
+
 /*****************************************************************************/	
 /*Issue 4*/
 #iss4 {
@@ -330,6 +336,7 @@ text-align:left;
     height: 450px;
     margin: 0px;
     padding:10px;
+	overflow: auto;
 }
 #iss4 h1{
 color:#606060;
@@ -346,6 +353,7 @@ text-align:center;
 #iss42 p{
 text-align:left;
 }
+
 /*****************************************************************************/	
 /*Issue 5*/
 #iss5 {
@@ -355,6 +363,7 @@ text-align:left;
     height: 700px;
     margin: 0px;
     padding:10px;
+	overflow: auto;
 }
 #iss5 p{
 color:#606060;
@@ -371,6 +380,7 @@ text-align:center;
 #iss52 p{
 text-align:left;
 }
+
 /*****************************************************************************/	
 /*Issue 6*/
 #iss6 {
@@ -380,6 +390,7 @@ text-align:left;
     height: 450px;
     margin: 0px;
     padding:10px;
+	overflow: auto;
 }
 #iss6 h1{
 color:#606060;
@@ -405,6 +416,7 @@ text-align:left;
     height: 700px;
     margin: 0px;
     padding:10px;
+	overflow: auto;
 }
 #iss7 p{
 color:#606060;
@@ -430,6 +442,7 @@ text-align:left;
     height: 450px;
     margin: 0px;
     padding:10px;
+	overflow: auto;
 }
 #iss8 h1{
 color:#606060;
@@ -455,6 +468,7 @@ text-align:left;
     height: 700px;
     margin: 0px;
     padding:10px;
+	overflow: auto;
 }
 #iss9 p{
 color:#606060;
@@ -480,6 +494,7 @@ text-align:left;
     height: 450px;
     margin: 0px;
     padding:10px;
+	overflow: auto;
 }
 #iss10 h1{
 color:#606060;
