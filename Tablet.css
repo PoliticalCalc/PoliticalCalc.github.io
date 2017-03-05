@@ -1,0 +1,545 @@
+#part1{
+
+    width: 100%;
+    height: 400px;
+    font-family: Tahoma ,Helvetica,Arial,sans-serif; 
+    margin: 0px;
+    padding:0px;
+    
+}
+
+#part2{
+    
+    background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    padding:0x;
+}
+
+#part3{
+	
+    background-color:#ECECEC;
+    width: 100%;
+    font-family: Tahoma ,Helvetica,Arial,sans-serif; 
+    padding:10px;
+	
+}
+img {
+text-align:center;
+}
+p{
+	text-align:left;
+}
+/*nav bar section*/
+span{
+	float: left;
+	color: white;
+	display: block;
+    padding-right: 15px;
+	padding: 10px;
+}
+
+span a{
+	text-decoration: none; 
+	color: #E4001B;
+	font-size: 27px; 
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: right;
+}
+
+.nav li a {
+    display: block;
+    padding: 10px;
+	font-size: 23px;
+	color: #a9a9a9;
+	text-decoration: none;  
+	padding-right: 15px;
+	font-family: Tahoma ,Helvetica,Arial,sans-serif; 
+}
+
+ul a:hover{
+    color: #E4001B;
+}
+
+.nav{
+    text-align: right;
+    width: 100%;
+    height: 55px;
+    background: white;
+}
+/*end of nav bar*/
+
+div#content{
+	background-color:red;
+}
+p#main{
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+}
+#pic img{
+    height: 11em;
+    width= 11em;
+
+}
+#pic{
+    text-align: center;
+}
+#part1 p{
+    text-align: center;
+   color: #6194BC;
+}
+
+/* Intro Paragraph Formating*/
+.intro{
+	margin:auto;
+    text-align: center;
+    width: 600px;
+	
+  
+}
+
+.intro h1{
+    color: #E4001B;
+    font-size: 50px;
+    padding-top: 5%;
+}
+
+.intro p{
+    text-align: center;
+    font-size: 18px;
+    color: #606060;
+    
+}
+
+/* team members  Section*/
+.overarchTeam {
+    margin:auto;
+    width: 1320px;
+    height: 600px;
+    
+}
+.overarchTeam h1{
+    font-size: 50px;
+    text-align: center; 
+	font-family: Tahoma ,Helvetica,Arial,sans-serif; 
+    color: #606060;
+    padding-top: 0;
+	
+}
+
+.teamMember img{
+ 
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+     
+}
+.teamMember p{
+    text-align: center;
+    color: #6194BC;
+    font-size: 19px;
+}
+
+.teamMember{
+    float: left;
+    margin: 2%;
+}
+
+#popup,#popup1,#popup2,#popup3,#popup4 {
+ font-family: Tahoma ,Helvetica,Arial,sans-serif; 
+    text-align: center;
+ color: #606060;
+}
+
+/*-----------**/
+
+.button {
+	/* Defines a button class with some ugly ass gray colour because I'm lazy*/
+    border:4px solid;
+    width: 40px;
+    padding-left:5px;
+    padding-right: 5px;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+
+}
+
+/*****************************************************************************/	
+/*This is for the Test.html File*/
+#container {
+	/*Makes a shitty ass container for testing purposes, because I'm lazy*/
+    width:50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: #D0EAFF;
+    border-radius:5px;
+    color: black;
+    font-weight: bold;
+	
+
+}
+#container h1{
+color:#E4001B;	
+}
+#container a{
+	color:#E4001B;
+}
+/*****************************************************************************/
+/*Tits stands for title something or other, i forget what the something or other stood for when I came up with it. It is the title of the quiz and I did not realize what I had written until after it was too late*/
+#tits{
+	color:black;
+	text-align:center;
+}
+/*****************************************************************************/
+/*This formats the text entry areas in the quiz*/
+input[type=text], textarea, select{
+width: 100%;
+padding: 13px 21px;
+margin: 9px 0;
+display: inline-block;
+border: 5px solid #ccc;
+border-radius: 9px;
+box-sizing: border-box;
+font-size: 15px;
+}
+/*This takes care of the formatting for the form buttons*/
+input[name="B1"] {
+background-color: #606060;
+color: #ff3b3f;
+font-size: 21px;
+padding:20px 20px;
+margin: 9px 0;
+border: none;
+border-radius: 9px;
+cursor: pointer;
+	}
+
+input[name="B2"] {
+background-color: #606060;
+color: #ff3b3f;
+font-size: 21px;
+padding:20px 20px;
+margin: 9px 0;
+border: none;
+border-radius: 9px;
+cursor: pointer;
+	}
+/*****************************************************************************/	
+/*Issue 1*/
+/*The issues alternate formating, even issues are derivitives of issue 2 while odd issues are derivitives of issue 1*/
+/*The nested div in each just keeps the paragraph formating from inheriting that from above, I used a p with a bullet point instead of an unordered list for the sake of easy text wrapping*/
+
+#iss1 {
+    background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    margin: 0px;
+    padding:10px;
+	    overflow: auto;
+}
+#iss1 p{
+color:#606060;
+text-align:center;
+}
+#iss1 h1{
+color:#E4001B;
+text-align:center;
+}
+#iss1 h3{
+color:#E4001B;
+text-align:center;
+}
+#issh{
+text-align:center;	
+font-size:52px;
+color: #6194BC;
+}
+#iss12 p{
+	text-align:left;
+}
+
+/*****************************************************************************/	
+/*Issue 2*/
+#iss2 {
+    background-color: #ECECEC;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    margin: 0px;
+    padding:10px;
+    overflow: auto;
+}
+#iss2 h1{
+color:#606060;
+text-align:center;
+}
+#iss2 h3{
+color:#606060;
+text-align:center;
+}
+#iss2 p{
+color:#606060;
+text-align:center;
+}
+#iss22 p{
+text-align:left;
+}
+
+/*****************************************************************************/	
+/*Issue 3*/
+#iss3 {
+    background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    margin: 0px;
+    padding:10px;
+	overflow: auto;
+}
+#iss3 p{
+color:#606060;
+text-align:center;
+}
+#iss3 h1{
+color:#E4001B;
+text-align:center;
+}
+#iss3 h3{
+color:#E4001B;
+text-align:center;
+}
+#iss32 p{
+text-align:left;
+}
+
+/*****************************************************************************/	
+/*Issue 4*/
+#iss4 {
+    background-color: #ECECEC;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    margin: 0px;
+    padding:10px;
+	overflow: auto;
+}
+#iss4 h1{
+color:#606060;
+text-align:center;
+}
+#iss4 h3{
+color:#606060;
+text-align:center;
+}
+#iss4 p{
+color:#606060;
+text-align:center;
+}
+#iss42 p{
+text-align:left;
+}
+
+/*****************************************************************************/	
+/*Issue 5*/
+#iss5 {
+    background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    margin: 0px;
+    padding:10px;
+	overflow: auto;
+}
+#iss5 p{
+color:#606060;
+text-align:center;
+}
+#iss5 h1{
+color:#E4001B;
+text-align:center;
+}
+#iss5 h3{
+color:#E4001B;
+text-align:center;
+}
+#iss52 p{
+text-align:left;
+}
+
+/*****************************************************************************/	
+/*Issue 6*/
+#iss6 {
+    background-color: #ECECEC;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    margin: 0px;
+    padding:10px;
+	overflow: auto;
+}
+#iss6 h1{
+color:#606060;
+text-align:center;
+}
+#iss6 h3{
+color:#606060;
+text-align:center;
+}
+#iss6 p{
+color:#606060;
+text-align:center;
+}
+#iss62 p{
+text-align:left;
+}
+/*****************************************************************************/
+/*Issue 7*/	
+#iss7 {
+    background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    margin: 0px;
+    padding:10px;
+	overflow: auto;
+}
+#iss7 p{
+color:#606060;
+text-align:center;
+}
+#iss7 h1{
+color:#E4001B;
+text-align:center;
+}
+#iss7 h3{
+color:#E4001B;
+text-align:center;
+}
+#iss72 p{
+text-align:left;
+}
+/*****************************************************************************/
+/*Issue 8*/	
+#iss8 {
+    background-color: #ECECEC;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    margin: 0px;
+    padding:10px;
+	overflow: auto;
+}
+#iss8 h1{
+color:#606060;
+text-align:center;
+}
+#iss8 h3{
+color:#606060;
+text-align:center;
+}
+#iss8 p{
+color:#606060;
+text-align:center;
+}
+#iss82 p{
+text-align:left;
+}
+/*****************************************************************************/
+/*Issue 9*/	
+#iss9 {
+    background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    margin: 0px;
+    padding:10px;
+	overflow: auto;
+}
+#iss9 p{
+color:#606060;
+text-align:center;
+}
+#iss9 h1{
+color:#E4001B;
+text-align:center;
+}
+#iss9 h3{
+color:#E4001B;
+text-align:center;
+}
+#iss92 p{
+text-align:left;
+}
+/*****************************************************************************/	
+/*Issue 10*/
+#iss10 {
+    background-color: #ECECEC;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    margin: 0px;
+    padding:10px;
+	overflow: auto;
+}
+#iss10 h1{
+color:#606060;
+text-align:center;
+}
+#iss10 h3{
+color:#606060;
+text-align:center;
+}
+#iss10 p{
+color:#606060;
+text-align:center;
+}
+#iss102 p{
+text-align:left;
+}
+/*****************************************************************************/	
+/*This is the rationality Page*/
+#Algorithm {
+    background-color: #ECECEC;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    margin: 0px;
+    padding:10px;
+}
+#Algorithm p{
+color:#606060;
+text-align:center;
+}
+#Algorithm h1{
+color:#606060;
+text-align:center;
+}
+#Algorithm h3{
+color:#606060;
+text-align:center;
+}
+/*****************************************************************************/
+#Rationality {
+    background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 100%;
+    margin: 0px;
+    padding:10px;
+}
+#Rationality h1{
+color:#E4001B;
+text-align:center;
+}
+#Rationality h3{
+color:#E4001B;
+text-align:center;
+}
+#Rationality p{
+color:#606060;
+text-align:center;
+}
+
