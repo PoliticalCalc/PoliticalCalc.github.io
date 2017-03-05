@@ -23,6 +23,7 @@
     width: 100%;
     font-family: Tahoma ,Helvetica,Arial,sans-serif; 
     padding:10px;
+	height:100%;
 	
 }
 img {
@@ -84,6 +85,26 @@ ul a:hover{
 		display:inline-block;
 
 	}
+	#moby{
+		display:inline-block;
+		padding-bottom:5%;
+	}
+	#moba{
+		display:inline-block;
+		padding-bottom:5%;
+	}
+	#mobk{
+		display:inline-block;
+		padding-bottom:5%;
+	}
+	#mobd{
+		display:inline-block;
+		padding-bottom:5%;
+	}
+	#mobt{
+		display:inline-block;
+		padding-bottom:5%;
+	}
 	.nav ul, .nav:active ul { 
 
 		display: none;
@@ -136,7 +157,7 @@ p#main{
 .intro{
 	margin:auto;
     text-align: center;
-    width: 100%px;
+    width: 100%;
 	
   
 }
@@ -157,8 +178,8 @@ p#main{
 /* team members  Section*/
 .overarchTeam {
     margin:auto;
-    width: 1320px;
-    height: 600px;
+    width: 100%;
+    height: 50%;
     
 }
 .overarchTeam h1{
@@ -173,8 +194,8 @@ p#main{
 .teamMember img{
  
     border-radius: 100%;
-    height: 200px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
      
 }
 .teamMember p{
@@ -183,15 +204,16 @@ p#main{
     font-size: 19px;
 }
 
-.teamMember{
+/*.teamMember{
     float: left;
     margin: 2%;
-}
+}*/
 
 #popup,#popup1,#popup2,#popup3,#popup4 {
  font-family: Tahoma ,Helvetica,Arial,sans-serif; 
     text-align: center;
  color: #606060;
+ display:none;
 }
 
 /*-----------**/
