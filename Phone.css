@@ -23,7 +23,8 @@
     width: 100%;
     font-family: Tahoma ,Helvetica,Arial,sans-serif; 
     padding:10px;
-	height:100%;
+	height:550%;
+	overflow:auto;
 	
 }
 img {
@@ -202,6 +203,7 @@ p#main{
     text-align: center;
     color: #6194BC;
     font-size: 19px;
+	background-color:#ECECEC
 }
 
 /*.teamMember{
