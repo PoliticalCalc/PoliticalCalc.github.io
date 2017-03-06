@@ -90,6 +90,12 @@ ul a:hover{
 		display:inline-block;
 		padding-bottom:5%;
 	}
+	#mobya{
+		display:none;
+	}
+		#mobaa{
+display:none;	
+		}
 	#moba{
 		display:inline-block;
 		padding-bottom:5%;
@@ -98,14 +104,23 @@ ul a:hover{
 		display:inline-block;
 		padding-bottom:5%;
 	}
+		#mobky{
+display:none;
+		}	
 	#mobd{
 		display:inline-block;
 		padding-bottom:5%;
 	}
+	#mobda{
+    display:none;	
+    }
 	#mobt{
 		display:inline-block;
 		padding-bottom:5%;
 	}
+	#mobty{
+display:none;	
+}
 	.nav ul, .nav:active ul { 
 
 		display: none;

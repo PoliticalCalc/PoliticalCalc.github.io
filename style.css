@@ -30,19 +30,35 @@
    display: none;
 }
 #moby{
-	display:none;
+		display:none;
 }
+#mobya{
+display:block;	
+}
+
 #moba{
 	display:none;
+}
+#mobaa{
+display:block;	
 }
 #mobk{
 	display:none;
 }
+#mobky{
+display:block;	
+}
 #mobd{
 	display:none;
 }
+#mobda{
+display:block;	
+}
 #mobt{
 	display:none;
+}
+#mobty{
+display:block;	
 }
 img {
 text-align:center;
@@ -148,6 +164,7 @@ p#main{
     height: 600px;
     
 }
+
 .overarchTeam h1{
     font-size: 50px;
     text-align: center; 
