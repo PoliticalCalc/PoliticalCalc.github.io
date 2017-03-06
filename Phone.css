@@ -33,7 +33,7 @@ text-align:center;
 p{
 	text-align:left;
 }
-/*nav bar section*/
+/*nav bar section For the phone version of the site Phone is represented by a screen size of 700 pixels wide or less*/
 span{
 	float: left;
 	color: white;
@@ -47,80 +47,11 @@ span a{
 	color: #E4001B;
 	font-size: 27px; 
 }
-
-/*.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;*/
-    
-}
-
 li {
     float: right;
 }
-
-/*.nav li a {
-    display: block;
-    padding: 10px;
-	font-size: 23px;
-	color: #a9a9a9;
-	text-decoration: none;  
-	padding-right: 15px;
-	font-family: Tahoma ,Helvetica,Arial,sans-serif; */
-}
-
 ul a:hover{
     color: #E4001B;
-}
-
-/*.nav{
-    text-align: right;
-    width: 100%;
-    height: 55px;
-    background: white;
-}
-/*end of nav bar*/
-	#men {
-
-		display:inline-block;
-
-	}
-	#moby{
-		display:inline-block;
-		padding-bottom:5%;
-	}
-	#mobya{
-		display:none;
-	}
-	#parent:hover #mobya{display : none;}
-		#mobaa{
-display:none;	
-		}
-	#moba{
-		display:inline-block;
-		padding-bottom:5%;
-	}
-	#mobk{
-		display:inline-block;
-		padding-bottom:5%;
-	}
-		#mobky{
-display:none;
-		}	
-	#mobd{
-		display:inline-block;
-		padding-bottom:5%;
-	}
-	#mobda{
-    display:none;	
-    }
-	#mobt{
-		display:inline-block;
-		padding-bottom:5%;
-	}
-	#mobty{
-display:none;	
 }
 	.nav ul, .nav:active ul { 
 
@@ -150,6 +81,47 @@ display:none;
 		display: block;
 
 	}
+/* This styles the text for the about ther team section*/
+	#men {
+	display:inline-block;
+	}
+	#moby{
+	display:inline-block;
+	padding-bottom:5%;
+	}
+	#mobya{
+	display:none;
+	}
+	#parent:hover #mobya{display : none;}
+	#mobaa{
+    display:none;	
+	}
+	#moba{
+	display:inline-block;
+	padding-bottom:5%;
+	}
+	#mobk{
+	display:inline-block;
+	padding-bottom:5%;
+	}
+	#mobky{
+    display:none;
+	}	
+	#mobd{
+	display:inline-block;
+	padding-bottom:5%;
+	}
+	#mobda{
+    display:none;	
+    }
+	#mobt{
+		display:inline-block;
+		padding-bottom:5%;
+	}
+	#mobty{
+display:none;	
+}
+
 div#content{
 	background-color:red;
 }
@@ -221,21 +193,7 @@ p#main{
     font-size: 19px;
 	background-color:#ECECEC
 }
-
-/*.teamMember{
-    float: left;
-    margin: 2%;
-}*/
-
-#popup,#popup1,#popup2,#popup3,#popup4 {
- font-family: Tahoma ,Helvetica,Arial,sans-serif; 
-    text-align: center;
- color: #606060;
- display:none;
-}
-
 /*-----------**/
-
 .button {
 	/* Defines a button class with some ugly ass gray colour because I'm lazy*/
     border:4px solid;
@@ -248,7 +206,6 @@ p#main{
     margin: 0 2px 0 2px;
 
 }
-
 /*****************************************************************************/	
 /*This is for the Test.html File*/
 #container {
@@ -260,8 +217,6 @@ p#main{
     border-radius:5px;
     color: black;
     font-weight: bold;
-	
-
 }
 #container h1{
 color:#E4001B;	
@@ -298,7 +253,6 @@ border: none;
 border-radius: 9px;
 cursor: pointer;
 	}
-
 input[name="B2"] {
 background-color: #606060;
 color: #ff3b3f;
@@ -313,14 +267,13 @@ cursor: pointer;
 /*Issue 1*/
 /*The issues alternate formating, even issues are derivitives of issue 2 while odd issues are derivitives of issue 1*/
 /*The nested div in each just keeps the paragraph formating from inheriting that from above, I used a p with a bullet point instead of an unordered list for the sake of easy text wrapping*/
-
 #iss1 {
     background-color: #D0EAFF;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 94%;
     margin: 0px;
     padding:10px;
-	    overflow: auto;
+	overflow: auto;
 }
 #iss1 p{
 color:#606060;
@@ -342,7 +295,6 @@ color: #6194BC;
 #iss12 p{
 	text-align:left;
 }
-
 /*****************************************************************************/	
 /*Issue 2*/
 #iss2 {
@@ -368,7 +320,6 @@ text-align:center;
 #iss22 p{
 text-align:left;
 }
-
 /*****************************************************************************/	
 /*Issue 3*/
 #iss3 {
@@ -394,7 +345,6 @@ text-align:center;
 #iss32 p{
 text-align:left;
 }
-
 /*****************************************************************************/	
 /*Issue 4*/
 #iss4 {
@@ -420,7 +370,6 @@ text-align:center;
 #iss42 p{
 text-align:left;
 }
-
 /*****************************************************************************/	
 /*Issue 5*/
 #iss5 {
@@ -446,7 +395,6 @@ text-align:center;
 #iss52 p{
 text-align:left;
 }
-
 /*****************************************************************************/	
 /*Issue 6*/
 #iss6 {

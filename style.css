@@ -26,6 +26,7 @@
     padding:10px;
 	
 }
+/*This is the part where the text about each team member is formatted*/
 #men {
    display: none;
 }
@@ -197,13 +198,6 @@ p#main{
     float: left;
     margin: 2%;
 }
-
-#popup,#popup1,#popup2,#popup3,#popup4 {
- font-family: Tahoma ,Helvetica,Arial,sans-serif; 
-    text-align: center;
- color: #606060;
-}
-
 /*-----------**/
 
 .button {

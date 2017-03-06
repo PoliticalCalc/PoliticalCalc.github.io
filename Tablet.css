@@ -27,11 +27,13 @@
 	overflow:auto;
 	
 }
+/* This styles the text for the about ther team section on the table version or screens between 701 and 1280 pixels wide*/
 #men {
    display: none;
 }
 #moby{
-	display:none;
+	display:inline-block;
+	padding-bottom:5%;
 }
 #mobya{
 	display:none;
@@ -40,7 +42,8 @@
 	display : none;
 	}
 #moba{
-	display:none;
+	display:inline-block;
+	padding-bottom:5%;
 }
 #mobaa{
 	display:none;
@@ -49,8 +52,9 @@
 	display : none;
 	}
 #mobk{
-	display:none;
-}
+	display:inline-block;
+	padding-bottom:5%;
+	}
 #mobky{
 	display:none;
 }
@@ -58,8 +62,9 @@
 	display : none;
 	}
 #mobd{
-	display:none;
-}
+	display:inline-block;
+	padding-bottom:5%;
+	}
 #mobda{
 	display:none;
 }
@@ -67,14 +72,17 @@
 	display : none;
 	}
 #mobt{
-	display:none;
-}
+	display:inline-block;
+	padding-bottom:5%;
+	}
 #mobty{
 	display:none;
 }
 #parent4:hover #mobty{
 	display : none;
 	}
+	
+	
 img {
 text-align:center;
 }
@@ -151,28 +159,6 @@ p#main{
 }
 
 /* Intro Paragraph Formating*/
-#moby{
-		display:inline-block;
-		padding-bottom:5%;
-	}
-	#moba{
-		display:inline-block;
-		padding-bottom:5%;
-	}
-
-	#mobk{
-		display:inline-block;
-		padding-bottom:5%;
-	}
-
-	#mobd{
-		display:inline-block;
-		padding-bottom:5%;
-	}
-	#mobt{
-		display:inline-block;
-		padding-bottom:5%;
-	}
 
 .intro{
 	margin:auto;
@@ -232,11 +218,6 @@ p#main{
     margin: 2%;
 }
 
-#popup,#popup1,#popup2,#popup3,#popup4 {
- font-family: Tahoma ,Helvetica,Arial,sans-serif; 
-    text-align: center;
- color: #606060;
-}
 
 /*-----------**/
 
