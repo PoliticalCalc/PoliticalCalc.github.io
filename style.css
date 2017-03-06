@@ -577,4 +577,11 @@ text-align:center;
 color:#606060;
 text-align:center;
 }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+a img {
+ border:none;
+}
+}	
+	
+}
 
