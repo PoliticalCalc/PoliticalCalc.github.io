@@ -93,6 +93,7 @@ ul a:hover{
 	#mobya{
 		display:none;
 	}
+	#parent:hover #mobya{display : none;}
 		#mobaa{
 display:none;	
 		}

@@ -33,33 +33,39 @@
 		display:none;
 }
 #mobya{
-display:block;	
+display:none;	
 }
+#parent:hover #mobya{display : block;}
+
 
 #moba{
 	display:none;
 }
 #mobaa{
-display:block;	
+display:none;	
 }
+#parent1:hover #mobaa{display : block;}
 #mobk{
 	display:none;
 }
 #mobky{
-display:block;	
+display:none;	
 }
+#parent2:hover #mobky{display : block;}
 #mobd{
 	display:none;
 }
 #mobda{
-display:block;	
+display:none;	
 }
+#parent3:hover #mobda{display : block;}
 #mobt{
 	display:none;
 }
 #mobty{
-display:block;	
+display:none;	
 }
+#parent4:hover #mobty{display : block;}
 img {
 text-align:center;
 }

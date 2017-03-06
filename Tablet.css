@@ -33,18 +33,48 @@
 #moby{
 	display:none;
 }
+#mobya{
+	display:none;
+}
+#parent:hover #mobya{
+	display : none;
+	}
 #moba{
 	display:none;
 }
+#mobaa{
+	display:none;
+}
+#parent1:hover #mobaa{
+	display : none;
+	}
 #mobk{
 	display:none;
 }
+#mobky{
+	display:none;
+}
+#parent2:hover #mobky{
+	display : none;
+	}
 #mobd{
 	display:none;
 }
+#mobda{
+	display:none;
+}
+#parent3:hover #mobda{
+	display : none;
+	}
 #mobt{
 	display:none;
 }
+#mobty{
+	display:none;
+}
+#parent4:hover #mobty{
+	display : none;
+	}
 img {
 text-align:center;
 }
@@ -129,33 +159,21 @@ p#main{
 		display:inline-block;
 		padding-bottom:5%;
 	}
-    #mobya{
-	display:none;
-    }
-		#mobaa{
-display:none;	
-		}
+
 	#mobk{
 		display:inline-block;
 		padding-bottom:5%;
 	}
-		#mobky{
-display:none;	
-}
+
 	#mobd{
 		display:inline-block;
 		padding-bottom:5%;
 	}
-		#mobda{
-display:none;	
-}
 	#mobt{
 		display:inline-block;
 		padding-bottom:5%;
 	}
-		#mobty{
-display:none;	
-}
+
 .intro{
 	margin:auto;
     text-align: center;
