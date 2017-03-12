@@ -205,7 +205,42 @@
 <br><br><br>
 
 </form>
+<div id="dis">
+<h1 id="issh">
+Results
+</h1>
+<div id="Res">
+<div id="scrpt">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+       <div id="chart_div" style="width: 900px; height: 500px;"></div>
+	   <script async src="//jsfiddle.net/bq8cds8d/embed/"></script>
+	   <script type='text/javascript' src='jsquiz.js'></script>
+	   <script type="text/javascript">
+	 var x = getX();
+	 var y = getY();
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['LvC', 'AvL'],
+          [ x,      y],
+        
+        ]);
 
+        var options = {
+          title: ' Political Calculator',
+          hAxis: {title: 'Liberal \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 Conservative', minValue: -2.45, maxValue: 2.45},
+          vAxis: {title: 'Authoritarian \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 Libertarian', minValue: -2.45, maxValue: 2.45},
+          legend: 'none'
+        };
+
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+      }
+	  </script>
+	  </div>
+	  </div>
 <form>
 <div align="center">
 

@@ -319,10 +319,12 @@ function runAll(){
 	findSelection9();
 	findSelection10();
 	findSelection11();
-	window.location.replace("Results.html");
+	document.getElementById("container").style.visibility = "hidden";
+    document.getElementById("dis").style.visibility = "visible";
 }
 function getX(){
-	window.alert("MR: "+MR)
+	window.alert("MR: "+MR);
+	window.alert("MD"+MD);
 	/*var test = ((Math.log(MR)/Math.log(5)) + (Math.log(SR)/Math.log(10)) - (1.033)(Math.log(MD)/Math.log(5)) - (Math.log(SD)/Math.log(10)));
 	if(test<-2){
 		return -4;
