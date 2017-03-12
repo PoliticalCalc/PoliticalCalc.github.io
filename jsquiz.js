@@ -335,7 +335,7 @@ function getX(){
 		return 4;
 }
 function getY(){
-	var test2 = (.04796)(A) - (.051087)L;
+	var test2 = (.04796)(A) - (.051087)*(L);
 	if(test2<-2)
 		return -4;
 	else if(test2<-1)
