@@ -319,7 +319,7 @@ function runAll(){
 	findSelection9();
 	findSelection10();
 	findSelection11();
-	window.location.replace('Results.html');
+	window.location.replace("Results.html");
 }
 function getX(){
 	return (Math.log(MR)/Math.log5)) + (Math.log(SR)/Math.log(10)) - (1.033)(Math.log(MD)/Math.log(5)) - (Math.log(SD)/Math.log(10)); 
