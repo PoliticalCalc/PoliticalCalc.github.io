@@ -322,8 +322,28 @@ function runAll(){
 	window.location.replace("Results.html");
 }
 function getX(){
-	return 2//((Math.log(MR)/Math.log(5)) + (Math.log(SR)/Math.log(10)) - (1.033)(Math.log(MD)/Math.log(5)) - (Math.log(SD)/Math.log(10))); 
+	var test = ((Math.log(MR)/Math.log(5)) + (Math.log(SR)/Math.log(10)) - (1.033)(Math.log(MD)/Math.log(5)) - (Math.log(SD)/Math.log(10)));
+	if(test<-2){
+		return -4;
+	}else if(test<-1)
+		return -2;
+	else if(test<1)
+		return 0;
+	else if(test<2)
+		return 2;
+	else if(test<4)
+		return 4;
 }
 function getY(){
-	return .04796*A - .051087*L;
+	var test2 = (.04796)(A) - (.051087)L;
+	if(test2<-2)
+		return -4;
+	else if(test2<-1)
+		return -2;
+	else if(test2<1)
+		return 0;
+	else if(test2<2)
+		return 2;
+	else if(test2<4)
+		return 4;
 }
