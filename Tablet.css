@@ -598,4 +598,15 @@ text-align:center;
 color:#606060;
 text-align:center;
 }
-
+/*****************************************************************************/
+#Res{
+	background-color: #D0EAFF;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 98%;
+    margin: 0px;
+    padding:10px;
+}
+#scrpt{
+margin-left:15%;
+margin-right:auto;	
+}
