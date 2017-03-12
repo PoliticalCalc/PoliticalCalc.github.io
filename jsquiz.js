@@ -322,7 +322,7 @@ function runAll(){
 	window.location.replace("Results.html");
 }
 function getX(){
-	return 1//((Math.log(MR)/Math.log(5)) + (Math.log(SR)/Math.log(10)) - (1.033)(Math.log(MD)/Math.log(5)) - (Math.log(SD)/Math.log(10))); 
+	return ((Math.log(MR)/Math.log(5)) + (Math.log(SR)/Math.log(10)) - (1.033)(Math.log(MD)/Math.log(5)) - (Math.log(SD)/Math.log(10))); 
 }
 function getY(){
 	return 2//.04796*A - .051087*L;
