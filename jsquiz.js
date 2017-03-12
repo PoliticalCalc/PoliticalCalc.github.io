@@ -307,7 +307,20 @@ function findSelection11(){
 		}
 	}
 }
-
+function runAll(){
+	findSelection1();
+	findSelection2();
+	findSelection3();
+	findSelection4();
+	findSelection5();
+	findSelection6();
+	findSelection7();
+	findSelection8();
+	findSelection9();
+	findSelection10();
+	findSelection11();
+	window.location.replace('Results.html');
+}
 function getX(){
 	return (Math.log(MR)/Math.log5)) + (Math.log(SR)/Math.log(10)) - (1.033)(Math.log(MD)/Math.log(5)) - (Math.log(SD)/Math.log(10)); 
 }
