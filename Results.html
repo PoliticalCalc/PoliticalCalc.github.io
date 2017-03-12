@@ -66,14 +66,13 @@ Results
 	   <script async src="//jsfiddle.net/bq8cds8d/embed/"></script>
 	   <script type='text/javascript' src='jsquiz.js'></script>
 	   <script type="text/javascript">
-	  var x = getX();
-      var y = getY();
+	 
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['LvC', 'AvL'],
-          [ x,      y],
+          [ getX(),      getY()],
         
         ]);
 
