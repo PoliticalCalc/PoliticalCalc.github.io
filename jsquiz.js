@@ -322,7 +322,8 @@ function runAll(){
 	window.location.replace("Results.html");
 }
 function getX(){
-	var test = ((Math.log(MR)/Math.log(5)) + (Math.log(SR)/Math.log(10)) - (1.033)(Math.log(MD)/Math.log(5)) - (Math.log(SD)/Math.log(10)));
+	window.alert("MR: "+MR)
+	/*var test = ((Math.log(MR)/Math.log(5)) + (Math.log(SR)/Math.log(10)) - (1.033)(Math.log(MD)/Math.log(5)) - (Math.log(SD)/Math.log(10)));
 	if(test<-2){
 		return -4;
 	}else if(test<-1)
@@ -332,9 +333,11 @@ function getX(){
 	else if(test<2)
 		return 2;
 	else if(test<4)
-		return 4;
+		return 4; */
+	return 0;
 }
 function getY(){
+	/*
 	var test2 = (.04796)(A) - (.051087)*(L);
 	if(test2<-2)
 		return -4;
@@ -346,4 +349,6 @@ function getY(){
 		return 2;
 	else if(test2<4)
 		return 4;
+	*/
+	return 2;
 }
