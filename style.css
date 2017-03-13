@@ -607,3 +607,24 @@ margin-left:auto;
 margin-right:auto;	
 }
 
+.flex_cont{
+    display: -webkit -flex;
+    display: flex;
+    width: 50%;
+    height: ;
+    background-color: lightgrey;
+   
+}
+.flex_box{
+    background-color: lightblue;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    
+}
+
+.flex_cont p{
+    color: grey;
+    font-size: 20px;
+}
+
