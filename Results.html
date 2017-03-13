@@ -56,7 +56,6 @@
 </ul>
 </div>
 <br><br><br><br>
-<div id="dis">
 <h1 id="issh">
 Results
 </h1>
@@ -67,8 +66,10 @@ Results
 	   <script async src="//jsfiddle.net/bq8cds8d/embed/"></script>
 	   <script type='text/javascript' src='jsquiz.js'></script>
 	   <script type="text/javascript">
-	 var x = getX();
-	 var y = getY();
+	 var xa = localStorage.getItem("X");
+	 var ya =localStorage.getItem("Y");
+	 var x = parseFloat(xa);
+	 var y = parseFloat(ya);
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
@@ -92,7 +93,7 @@ Results
 	  </script>
 	  </div>
 	  </div>
-	  </div>
+
 </body>
 <footer>&copy 2016 <a href="#">MCST Kids</a></footer>
 </html>

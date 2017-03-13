@@ -319,38 +319,31 @@ function runAll(){
 	findSelection9();
 	findSelection10();
 	findSelection11();
-	document.getElementById("container").style.visibility = "hidden";
-    document.getElementById("dis").style.visibility = "visible";
+	setX();
+	setY();
+	window.location.replace("Results.html");
 }
 function getX(){
-	window.alert("MR: "+MR);
-	window.alert("MD"+MD);
-	/*var test = ((Math.log(MR)/Math.log(5)) + (Math.log(SR)/Math.log(10)) - (1.033)(Math.log(MD)/Math.log(5)) - (Math.log(SD)/Math.log(10)));
-	if(test<-2){
-		return -4;
-	}else if(test<-1)
-		return -2;
-	else if(test<1)
-		return 0;
-	else if(test<2)
-		return 2;
-	else if(test<4)
-		return 4; */
-	return 0;
+	var t1=(Math.log(MR)/Math.log(5));
+	var t2=(Math.log(SR)/Math.log(10));
+	var t3=(Math.log(MD)/Math.log(5));
+	var t4=(Math.log(SD)/Math.log(10));
+	var t5=1.033*t3;
+	var t6= t1+t2-t5-t4;
+	var test=t6*1.6;
+	return test;
+	
+}
+function setX(){
+var z = getX();	
+localStorage.setItem("X",z);
 }
 function getY(){
-	/*
-	var test2 = (.04796)(A) - (.051087)*(L);
-	if(test2<-2)
-		return -4;
-	else if(test2<-1)
-		return -2;
-	else if(test2<1)
-		return 0;
-	else if(test2<2)
-		return 2;
-	else if(test2<4)
-		return 4;
-	*/
-	return 2;
+	var t21 = ((-.04796)*(A) + (.051087)*(L));
+	var test2=t21*1.6;
+	return test2;
+}
+function setY(){
+var za=getY();
+localStorage.setItem("Y",za);	
 }
