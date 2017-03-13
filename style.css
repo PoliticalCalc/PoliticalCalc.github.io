@@ -612,17 +612,27 @@ margin-right:auto;
     display: flex;
     width: 50%;
     height: ;
-    background-color: lightgrey;
+ background-color: #D0EAFF;
+    float: left;
    
 }
 .flex_box{
-    background-color: lightblue;
     
+ background-color: #ECECEC;
+     border-radius: 5%;
+    padding: 1em;
+}
+
+.flex_box2{
     
+ background-color: #D0EAFF;
+    border-radius: 5%;
+    padding: 1em;
 }
 
 .flex_cont p{
     color: grey;
-    font-size: 20px;
+    font-size: 16px;
 }
+
 
