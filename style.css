@@ -610,12 +610,24 @@ color:#606060;
 text-align:center;
 }
 /*****************************************************************************/
+#holder{
+	height:100%;
+}
+.flex_hold{
+    display: -webkit -flex;
+    display: flex;
+    width: 100%;
+	background-color: #D0EAFF;
+	flex:1 0 auto;
+
+}
 .flex_cont{
     display: -webkit -flex;
     display: flex;
     width: 50%;
 	background-color: #D0EAFF;
     float: left;
+	flex:1 0 auto;
 
 }
 .flex_box{
