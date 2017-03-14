@@ -643,3 +643,16 @@ footer{
     text-align: center;
 }
 
+.flex_box3{
+    display: -webkit -flex;
+    display: flex;
+	background-color: white;
+    width: 25%;
+    float: left;
+    overflow: auto;
+
+}
+
+.flex_box3 h3{
+    text-align: center;
+}
