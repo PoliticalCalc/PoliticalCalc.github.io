@@ -32,50 +32,56 @@ a img {
 }
 /*This is the part where the text about each team member is formatted*/
 #men {
-   display: none;
+display: none;
 }
 #moby{
-		display:none;
+display:none;
 }
 #mobya{
 display:none;	
 }
-#parent:hover #mobya{display : block;}
-
-
+#parent:hover #mobya{
+display : block;
+}
 #moba{
-	display:none;
+display:none;
 }
 #mobaa{
 display:none;	
 }
 #parent1:hover #mobaa{display : block;}
 #mobk{
-	display:none;
+display:none;
 }
 #mobky{
 display:none;	
 }
-#parent2:hover #mobky{display : block;}
+#parent2:hover #mobky{
+display : block;
+}
 #mobd{
-	display:none;
+display:none;
 }
 #mobda{
 display:none;	
 }
-#parent3:hover #mobda{display : block;}
+#parent3:hover #mobda{
+display : block;
+}
 #mobt{
-	display:none;
+display:none;
 }
 #mobty{
 display:none;	
 }
-#parent4:hover #mobty{display : block;}
+#parent4:hover #mobty{
+display : block;
+}
 img {
 text-align:center;
 }
 p{
-	text-align:left;
+text-align:left;
 }
 /*nav bar section*/
 span{
@@ -589,6 +595,7 @@ a img {
  border:none;
 }	
 /*****************************************************************************/
+/*Results.html Formatting*/
 #Res{
 	background-color: #D0EAFF;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
@@ -602,13 +609,32 @@ a img {
     text-align: center;
     color: #e4001b;
 }
+/*****************************************************************************/
 #scrpt{
 margin-left:auto;
 margin-right:auto;	
 }
+
 #chart_div{
 	margin:auto;
 }
+/*****************************************************************************/
+#Means {
+    background-color: #ECECEC;
+    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    width: 98%;
+    margin: 0px;
+    padding:10px;
+}
+#Means p{
+color:#606060;
+text-align:center;
+}
+#Means h1{
+color:#606060;
+text-align:center;
+}
+/*****************************************************************************/
 .flex_cont{
     display: -webkit -flex;
     display: flex;
