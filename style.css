@@ -606,7 +606,9 @@ a img {
 margin-left:auto;
 margin-right:auto;	
 }
-
+#chart_div{
+	margin:auto;
+}
 .flex_cont{
     display: -webkit -flex;
     display: flex;
@@ -638,3 +640,4 @@ margin-right:auto;
 footer{
     text-align: center;
 }
+
