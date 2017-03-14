@@ -91,8 +91,6 @@ display : block;
 
 .nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     
 }
@@ -283,13 +281,11 @@ cursor: pointer;
 /*The nested div in each just keeps the paragraph formating from inheriting that from above, I used a p with a bullet point instead of an unordered list for the sake of easy text wrapping*/
 
 #iss1 {
-    background-color: #D0EAFF;
-    font-family: Tahoma,Helvetica,Arial,sans-serif; 
-    width: 100%;
+    background-color:#D0EAFF;
+    font-family:Tahoma,Helvetica,Arial,sans-serif; 
+    width:100%;
     padding:10px;
-	overflow: auto;
-		border:2%;
-	border-color:white;
+	overflow:auto;
 }
 #iss1 p{
 color:#606060;
@@ -315,8 +311,8 @@ color: #6194BC;
 /*****************************************************************************/	
 /*Issue 2*/
 #iss2 {
-    background-color: #ECECEC;
-    font-family: Tahoma,Helvetica,Arial,sans-serif; 
+    background-color:#ECECEC;
+    font-family:Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
     padding:10px;
     overflow: auto;
@@ -621,7 +617,6 @@ text-align:center;
    
 }
 .flex_box{
-    
 	background-color: #ECECEC;
     border-radius: 5%;
     padding: 1em;
