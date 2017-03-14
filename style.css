@@ -279,6 +279,14 @@ cursor: pointer;
 /*Issue 1*/
 /*The issues alternate formating, even issues are derivitives of issue 2 while odd issues are derivitives of issue 1*/
 /*The nested div in each just keeps the paragraph formating from inheriting that from above, I used a p with a bullet point instead of an unordered list for the sake of easy text wrapping*/
+#iss1 h3{
+	color:#E4001B;
+	text-align:center;
+}
+#iss1 p{
+color:#606060;
+text-align:center;	
+}
 
 #iss1 {
     background-color:#D0EAFF;
@@ -287,25 +295,20 @@ cursor: pointer;
     padding:10px;
 	overflow:auto;
 }
-#iss1 p{
-color:#606060;
-text-align:center;
-}
+
 #iss1 h1{
 color:#E4001B;
 text-align:center;
 }
-#iss1 h3{
-color:#E4001B;
-text-align:center;
-}
+
 #issh{
 text-align:center;	
 font-size:52px;
 color: #6194BC;
 }
 #iss12 p{
-	text-align:left;
+text-align:left;
+color:#606060;
 }
 
 /*****************************************************************************/	
