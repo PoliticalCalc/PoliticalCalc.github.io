@@ -667,3 +667,41 @@ footer{
 .flex_box3 h3{
     text-align: center;
 }
+.flex_box3 p{
+	text-align:center;
+}
+.titlesa{
+    display: -webkit -flex;
+    display: flex;
+    width: 100%;
+	background-color: #ECECEC;
+	flex:1 0 auto;
+
+}
+.flex_box4{
+    display: -webkit -flex;
+    display: flex;
+	background-color:#ECECEC;
+    width: 25%;
+    float: left;
+    overflow: auto;
+	text-align: center;
+
+}
+.flex_box4 h3{
+    text-align: center;
+}
+.inmen{
+    display: -webkit -flex;
+    display: flex;
+    width: 100%;
+	background-color: #ECECEC;
+	flex:1 0 auto;
+
+}
+.titlesb {
+	text-align:center;
+}
+.titlesb h3{
+	text-align:center;
+}
