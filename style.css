@@ -4,30 +4,24 @@ a img {
 }
 }
 #part1{
-
     width: 100%;
-    height: 400px;
-    font-family: Tahoma ,Helvetica,Arial,sans-serif; 
-    margin: 0px;
-    padding:0px;
-    
+    height: 100%;
+	padding-bottom:2%;
+    font-family: Tahoma ,Helvetica,Arial,sans-serif;  
 }
 
 #part2{
-    
     background-color: #D0EAFF;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 99%;
-    margin: 0px;
     padding-bottom:5%;
 }
 
 #part3{
-	
     background-color:#ECECEC;
     width: 98%;
     font-family: Tahoma ,Helvetica,Arial,sans-serif; 
-    padding:10px;
+    padding:2%;
 	
 }
 /*This is the part where the text about each team member is formatted*/
@@ -49,7 +43,9 @@ display:none;
 #mobaa{
 display:none;	
 }
-#parent1:hover #mobaa{display : block;}
+#parent1:hover #mobaa{
+display : block;
+}
 #mobk{
 display:none;
 }
@@ -77,22 +73,17 @@ display:none;
 #parent4:hover #mobty{
 display : block;
 }
-img {
-text-align:center;
-}
-p{
-text-align:left;
-}
 /*nav bar section*/
-span{
+.nav span{
 	float: left;
 	color: white;
 	display: block;
     padding-right: 15px;
-	padding: 10px;
+	padding: 0.25%;
+	font-family: Tahoma ,Helvetica,Arial,sans-serif;  
 }
 
-span a{
+.nav span a{
 	text-decoration: none; 
 	color: #E4001B;
 	font-size: 27px; 
@@ -106,7 +97,7 @@ span a{
     
 }
 
-li {
+.nav li {
     float: right;
 }
 
@@ -120,7 +111,7 @@ li {
 	font-family: Tahoma ,Helvetica,Arial,sans-serif; 
 }
 
-ul a:hover{
+.nav ul a:hover{
     color: #E4001B;
 }
 
@@ -139,16 +130,16 @@ p#main{
 	text-align:center;
 	font-family: 'Roboto', sans-serif;
 }
+#pic{
+    text-align: center;
+}
 #pic img{
     height: 11em;
     width= 11em;
 
 }
-#pic{
-    text-align: center;
-}
 #part1 p{
-    text-align: center;
+   text-align: center;
    color: #6194BC;
 }
 
@@ -187,7 +178,6 @@ p#main{
     text-align: center; 
 	font-family: Tahoma ,Helvetica,Arial,sans-serif; 
     color: #606060;
-    padding-top: 0;
 	
 }
 
@@ -296,9 +286,10 @@ cursor: pointer;
     background-color: #D0EAFF;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
-    margin: 0px;
     padding:10px;
-	    overflow: auto;
+	overflow: auto;
+		border:2%;
+	border-color:white;
 }
 #iss1 p{
 color:#606060;
@@ -327,7 +318,6 @@ color: #6194BC;
     background-color: #ECECEC;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
-    margin: 0px;
     padding:10px;
     overflow: auto;
 }
@@ -353,7 +343,6 @@ text-align:left;
     background-color: #D0EAFF;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
-    margin: 0px;
     padding:10px;
 	overflow: auto;
 }
@@ -379,7 +368,6 @@ text-align:left;
     background-color: #ECECEC;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
-    margin: 0px;
     padding:10px;
 	overflow: auto;
 }
@@ -405,7 +393,6 @@ text-align:left;
     background-color: #D0EAFF;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
-    margin: 0px;
     padding:10px;
 	overflow: auto;
 }
@@ -431,7 +418,6 @@ text-align:left;
     background-color: #ECECEC;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
-    margin: 0px;
     padding:10px;
 	overflow: auto;
 }
@@ -456,7 +442,6 @@ text-align:left;
     background-color: #D0EAFF;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
-    margin: 0px;
     padding:10px;
 	overflow: auto;
 }
@@ -481,7 +466,6 @@ text-align:left;
     background-color: #ECECEC;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
-    margin: 0px;
     padding:10px;
 	overflow: auto;
 }
@@ -506,7 +490,6 @@ text-align:left;
     background-color: #D0EAFF;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
-    margin: 0px;
     padding:10px;
 	overflow: auto;
 }
@@ -531,7 +514,6 @@ text-align:left;
     background-color: #ECECEC;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 100%;
-    margin: 0px;
     padding:10px;
 	overflow: auto;
 }
@@ -556,7 +538,6 @@ text-align:left;
     background-color: #ECECEC;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 98%;
-    margin: 0px;
     padding:10px;
 }
 #Algorithm p{
@@ -576,7 +557,6 @@ text-align:center;
     background-color: #D0EAFF;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 98%;
-    margin: 0px;
     padding:10px;
 }
 #Rationality h1{
@@ -600,7 +580,6 @@ a img {
 	background-color: #D0EAFF;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 98%;
-    margin: 0px;
     padding:10px;
 	margin-left:auto;
 	margin-right:auto;
@@ -611,19 +590,17 @@ a img {
 }
 /*****************************************************************************/
 #scrpt{
-margin-left:auto;
-margin-right:auto;	
+margin:auto;	
 }
 
 #chart_div{
-	margin:auto;
+margin:auto;
 }
 /*****************************************************************************/
 #Means {
     background-color: #ECECEC;
     font-family: Tahoma,Helvetica,Arial,sans-serif; 
     width: 98%;
-    margin: 0px;
     padding:10px;
 }
 #Means p{
@@ -639,28 +616,29 @@ text-align:center;
     display: -webkit -flex;
     display: flex;
     width: 50%;
-    height: ;
- background-color: #D0EAFF;
+	background-color: #D0EAFF;
     float: left;
    
 }
 .flex_box{
     
- background-color: #ECECEC;
-     border-radius: 5%;
+	background-color: #ECECEC;
+    border-radius: 5%;
     padding: 1em;
 }
 
 .flex_box2{
     
- background-color: #D0EAFF;
+	background-color: #D0EAFF;
     border-radius: 5%;
     padding: 1em;
+
 }
 
 .flex_cont p{
     color: grey;
     font-size: 16px;
+
 }
 
 footer{
