@@ -713,4 +713,6 @@ footer{
 	width: 900px;
 	height: 500px;
 }
-
+#content_holder{
+	display:none;
+}
