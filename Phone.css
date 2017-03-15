@@ -573,4 +573,7 @@ text-align:center;
 margin-left:15%;
 margin-right:auto;	
 }
-
+#chart_div{
+	width: 360px;
+	height: 250px;
+}

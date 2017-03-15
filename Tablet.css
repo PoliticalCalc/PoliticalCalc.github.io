@@ -622,3 +622,7 @@ text-align:center;
 margin-left:15%;
 margin-right:auto;	
 }
+#chart_div{
+	width: 750px;
+	height: 500px;
+}
