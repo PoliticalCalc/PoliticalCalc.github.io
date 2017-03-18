@@ -629,16 +629,3 @@ margin-right:auto;
 #content_holder{
 	display:none;
 }
-
-@media (max-width: 800px){
-#content_holder{
-	display:block;
-	background-color: #ECECEC;
-    font-family: Tahoma,Helvetica,Arial,sans-serif; 
-    width: 94%;
-    padding:10px;
-}
-	#men {
-	display:inline-block;
-	}
-}
