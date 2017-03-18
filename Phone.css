@@ -665,3 +665,6 @@ width:94%;
 #mobile_issues{
 	display:block;
 }
+.flex_hold{
+	display:none;
+}
