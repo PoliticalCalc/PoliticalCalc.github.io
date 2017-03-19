@@ -2,6 +2,12 @@
 a img {
  border:none;
 }
+#mobile_issues{
+	display:block;
+}
+.flex_hold{
+	display:none;
+}
 }
 #part1{
     width: 100%;
