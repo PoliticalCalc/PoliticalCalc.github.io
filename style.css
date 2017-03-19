@@ -223,6 +223,7 @@ p#main{
     border-radius:5px;
     color: black;
     font-weight: bold;
+	font-family: Tahoma,Helvetica,Arial,sans-serif;
 	
 
 }
@@ -236,6 +237,14 @@ color:#E4001B;
 	text-align:center;
 	cursor:pointer;
 }
+.qheader{
+font-family: Tahoma,Helvetica,Arial,sans-serif; 	
+}
+.qselections{
+font-family: Tahoma,Helvetica,Arial,sans-serif;	
+}
+
+
 /*****************************************************************************/
 /*Tits stands for title something or other, i forget what the something or other stood for when I came up with it. It is the title of the quiz and I did not realize what I had written until after it was too late*/
 #tits{
