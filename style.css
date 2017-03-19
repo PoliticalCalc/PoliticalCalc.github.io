@@ -2,11 +2,11 @@
 a img {
  border:none;
 }
-#mobile_issues{
-	display:block;
-}
 .flex_hold{
 	display:none;
+}
+#mobile_issues{
+	display:block;
 }
 }
 #part1{
