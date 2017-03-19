@@ -806,3 +806,12 @@ text-align:center;
 #mobile_issues{
 	display:none;
 }
+@supports not(display:flex) {
+	
+#mobile_issues{
+	display:block;
+}
+.flex_hold{
+	display:none;
+}
+}
