@@ -716,12 +716,16 @@ footer{
 	font-family: Tahoma,Helvetica,Arial,sans-serif;
 
 }
-.titlesb {
-	text-align:center;
+.flex_box4{
+    justify-content: center;
 }
-.titlesb h3{
-	text-align:center;
+.flex_box4:nth-of-type(even) {
+    color: red;
 }
+.flex_box4:nth-of-type(odd) {
+    color: #606060;
+} 
+
 .space{
 	background-color:white;
 	height:2%;
@@ -797,6 +801,7 @@ text-align:center;
 color:#606060;
 text-align:center;
 }
+
 
 #mobile_issues{
 	display:none;
