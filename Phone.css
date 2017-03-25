@@ -96,10 +96,16 @@ ul a:hover{
 	#mobaa{
     display:none;	
 	}
+	#parent1:hover #mobaa{
+display : none;
+}
 	#moba{
 	display:inline-block;
 	padding-bottom:5%;
 	}
+	#parent2:hover #mobky{
+display : none;
+}
 	#mobk{
 	display:inline-block;
 	padding-bottom:5%;
@@ -107,6 +113,9 @@ ul a:hover{
 	#mobky{
     display:none;
 	}	
+	#parent3:hover #mobda{
+display : none;
+}
 	#mobd{
 	display:inline-block;
 	padding-bottom:5%;
@@ -118,6 +127,9 @@ ul a:hover{
 		display:inline-block;
 		padding-bottom:5%;
 	}
+	#parent4:hover #mobty{
+display : none;
+}
 	#mobty{
 display:none;	
 }
